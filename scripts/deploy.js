@@ -12,4 +12,3 @@ async function main() {
       console.error(error);
       process.exit(1);
     });
-//0xC9747D38F304d4bFeF0e24ffCA065764B4a1e0cd

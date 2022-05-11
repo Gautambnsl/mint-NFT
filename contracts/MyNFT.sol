@@ -11,7 +11,7 @@ contract MyNFT is ERC721URIStorage , Ownable{
 
     Counters.Counter private _tokenIds;
 
-    constructor() ERC721("Shyam Baba","/^/^/^"){}
+    constructor() ERC721("MY Token Name","TKN"){}
 
     function  mintNFT(address recipient,string memory tokenURI)
      public
